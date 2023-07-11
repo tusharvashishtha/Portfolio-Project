@@ -361,21 +361,27 @@ section {
     margin-bottom: 2.8rem;
 }
 
-.list li{
+.list li {
+    display: flex;
+    align-items: center;
     margin-bottom: 12px;
 }
 
-.list li a{
-    display: block;
+.list li a {
+    display: flex;
+    align-items: center;
     color: var(--second-color);
     font-size: 14px;
     transition: all .45s ease;
 }
 
-
-.list li a:hover{
+.list li a:hover {
     color: var(--text-color);
     transform: translateY(5px);
+}
+
+.list li lord-icon {
+    margin-right: 10px;
 }
 
 .contact-icons i{
@@ -456,71 +462,71 @@ form textarea {
 }
 
 @media screen and (max-width: 768px) {
-    header {
-      padding: 22px 5%;
-    }
-    
-    .navlist {
-      display: none;
-    }
-    
-    #menu-icon {
-      display: block;
-    }
-    
-    .logo {
-      font-size: 25px;
-    }
-    
-    section {
-      padding: 100px 5%;
-    }
-    
-    .home-text h1 {
-      font-size: 3.5rem;
-    }
-    
-    .home-text h3 {
-      font-size: 2.2rem;
-    }
-    
-    .about-text h2 {
-      font-size: 2.5rem;
-    }
-    
-    .about-text h4 {
-      font-size: 20px;
-      margin: 15px 0 20px;
-    }
-    
-    .about-text p {
-      margin: 20px 30px;
-    }
-    
-    .services-content,
-    .portfolio-content {
-      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    }
-    
-    .row img {
-      height: 200px;
-    }
-    
-    .contact {
-      grid-template-columns: 1fr;
-    }
-    
-    .contact-text h2 {
-      font-size: 2.5rem;
-    }
-    
-    .contact-form form input,
-    .contact-form textarea {
-      font-size: 14px;
-    }
-    
-    .end {
-      padding: 20px 5%;
-    }
+  header {
+    padding: 22px 5%;
   }
+  
+  .navlist {
+    display: none;
+  }
+  
+  #menu-icon {
+    display: block;
+  }
+  
+  .logo {
+    font-size: 25px;
+  }
+  
+  section {
+    padding: 100px 5%;
+  }
+  
+  .home-text h1 {
+    font-size: 3.5rem;
+  }
+  
+  .home-text h3 {
+    font-size: 2.2rem;
+  }
+  
+  .about-text h2 {
+    font-size: 2.5rem;
+  }
+  
+  .about-text h4 {
+    font-size: 20px;
+    margin: 15px 0 20px;
+  }
+  
+  .about-text p {
+    margin: 20px 30px;
+  }
+  
+  .services-content,
+  .portfolio-content {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+  
+  .row img {
+    height: 200px;
+  }
+  
+  .contact {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-text h2 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-form form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+  
+  .end {
+    padding: 20px 5%;
+  }
+}
 
