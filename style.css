@@ -464,6 +464,8 @@ form textarea {
 @media screen and (max-width: 768px) {
   header {
     padding: 22px 5%;
+    display: flex;
+    justify-content: space-between;
   }
   
   .navlist {
